@@ -1,6 +1,41 @@
 # python-django-nr-version-1
 Web Site with Python / Django
 
-- For development
+- Para Desarrollo
 
-1. git clone
+1. Terminal:
+
+'git clone'
+
+2. Crear un entorno virtual
+
+'pip install virtualenv'
+
+3. Nombramos la configuracion del entorno virtual
+
+'python3 -m virtualenv venv'
+
+4. Para correr el entorno virtual:
+
+'cd venv/bin/source activate'
+
+5. Volver al directorio del entorno virtual
+
+'cd ..'
+'cd ..'
+
+6. Instalamos Django
+
+'pip install django'
+
+7. Inicializar el proyecto de Django
+
+'django-admin startproject django_website_v1 .'
+
+8. Corremos el servidor
+
+'python manage.py runserver'
+
+
+
+
