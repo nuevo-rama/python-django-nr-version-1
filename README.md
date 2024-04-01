@@ -32,19 +32,19 @@ git clone
 
 7. Inicializar el proyecto de Django
 
-`django-admin startproject django_website_v1 .` 
+`django-admin startproject django_blog_v1 .` 
 
 " ." sirve para crear las carpetas dentro del proyecto
 
-8. Corremos el servidor
+8. Crear en la base de datos las tablas
+`cd django_blog_v1`
+`python manage.py migrate`
+
+9. Arrancamos el servidor
 
 `python manage.py runserver`
 
-9. Generamos las carpetas para una de las funcionalidad del website
 
-`python manage.py startapp blog`
-
-10. 
 
 
 
