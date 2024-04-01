@@ -44,6 +44,8 @@ git clone
 
 `python manage.py runserver`
 
+10. 
+
 
 
 
