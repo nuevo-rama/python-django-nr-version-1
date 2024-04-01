@@ -44,7 +44,9 @@ git clone
 
 `python manage.py runserver`
 
-10. 
+10. Creamos una aplicacion (blog)
+`python manage.py startapp blog`
+
 
 
 
